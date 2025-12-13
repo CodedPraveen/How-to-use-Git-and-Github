@@ -1,10 +1,11 @@
-# 1. for git version chack
+Created By CodedPraveen
+# 1. For Git Version Check
 
 ```
 git --version
 ```
 
-# 2. from Github repository to local computer
+# 2. From Github Repository to local computer
 
 https code link
 
@@ -66,7 +67,7 @@ to see file update or modify
 git status
 ```
 
-# 6. add a File into Github repository
+# 6. add a File into Github Repository
 
 ```
 git add .\index.html
@@ -84,7 +85,7 @@ and than
 git commit -m "Add Index Files"
 ```
 
-# 7. To see your code and Folder in Github repository
+# 7. To see your code and Folder in Github Repository
 
 ```
 git push origin main
@@ -103,7 +104,7 @@ mkdir New Folder
 <br>
 <h1>You Enter a Intermediate level
 <h1>
-Next how to your local folder add in Github repository
+Next how to your local folder add in Github Repository
 
 # 1. Git init
 
@@ -113,17 +114,17 @@ in your new folder terminal
 git init
 ```
 
-# 2. Make a New repository in Github Than in VS Code Terminal
+# 2. Make a New Repository in Github Than in VS Code Terminal
 
-like my Folder name Localrepository
+like my Folder name LocalRepository
 
 ```
- git remote add origin https://github.com/CodedPraveen/Localrepository.git
+ git remote add origin https://github.com/CodedPraveen/LocalRepository.git
 ```
 
 # 3. To verify Remote
 
-Remote = github repository location link
+Remote = github Repository location link
 
 ```
 git remote -v
@@ -141,7 +142,7 @@ rename branch
 git branch -M main
 ```
 
-To update repository
+To update Repository
 
 ```
 git push -u origin main
@@ -161,7 +162,7 @@ git add .
 git commit -m "I Do Changes in Index.html"
 ```
 
-And see in Github repository to
+And see in Github Repository to
 
 ```
 git push
@@ -169,12 +170,12 @@ git push
 
 <h1> Finnaly How Workflow Looks
 
-I. Github repository<br>
+I. Github Repository<br>
 II. Clone in VS Code<br>
 III. Make Changes<br>
 IV. Git add .<br>
 V. Commit<br>
-Vi. push to see in repository
+Vi. push to see in Repository
 
 Another Topic
 
@@ -254,7 +255,7 @@ git merge branch1
 ```
 
 VS Code suggest what kind of change you keep than select what type of you went and than repeat # 5 <br>
-refresh your github repository
+refresh your github Repository
 
 <h4>chack out both branch and push request <br>
 
@@ -303,7 +304,8 @@ git log
 
 
 # 2. Fork (Rough Copy)
-Go to Github and search what we want to copy and when you go on search repository than click on fork and you make it. copy !
+Go to Github and search what we want to copy and when you go on search Repository than click on fork and you make it. copy !
 ```
 Bye Bye
+
 ```
