@@ -15,7 +15,7 @@ git clone https://github.com/CodedPraveen/Project.git
 
 # 3. Use your Folder Direct / Terminal
 
-here to ways First
+here 2 ways First
 
 ```
 code -r .\Project
