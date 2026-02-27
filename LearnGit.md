@@ -2,7 +2,7 @@
 
 ## 1. For Git Version Check
 
-```
+```bash
 git --version
 ```
 
@@ -221,10 +221,19 @@ git checkout -b branch1
 git checkout main
 ```
 
-## 4. Delete Branch
+## 4. Delete Branch Locally /
 
 ```
 git branch -d branch1
+
+```
+
+## Remote Branch delete
+
+```
+
+git push origin --delete branch1
+
 ```
 
 ## 5. To See Branch in Github Follow Step
@@ -232,21 +241,29 @@ git branch -d branch1
 - make changes in any file file
 
 ```
+
 git add .
+
 ```
 
 ```
+
 git commit -m "What Changes"
+
 ```
 
 ```
+
 git push origin branch1
+
 ```
 
 ## 6. See Changes
 
 ```
+
 git diff main
+
 ```
 
 ## 7. Merging Code
@@ -267,7 +284,9 @@ git merge branch1
 - So in VS Code main branch you see not code update than we do :-
 
 ```
+
 git pull origin main
+
 ```
 
 ## 8. Resolving Merge Conflicts
@@ -276,7 +295,9 @@ git pull origin main
 - if not branch change so first change it
 
 ```
+
 git merge branch1
+
 ```
 
 - VS Code suggest what kind of change you keep than select what type of you went and than repeat # 5
@@ -285,11 +306,15 @@ git merge branch1
 #### chack out both branch and push request.
 
 ```
+
 git checkout branch1
+
 ```
 
 ```
+
 git push
+
 ```
 
 ## You are Going to Master Level
@@ -301,13 +326,17 @@ git push
 - if we delete code and add it and only remain to commit
 
 ```
+
 git reset branch1
+
 ```
 
 ### Case 2 : Commit Changes ( for one commit )
 
 ```
+
 git reset HEAD~1
+
 ```
 
 ### Case 3 : Commit Changes ( for many commit )<br>
@@ -315,19 +344,25 @@ git reset HEAD~1
 - commit hash = in the ( git log ) commit number
 
 ```
+
 git reset <-commit hash->
+
 ```
 
 - for pure delete
 
 ```
+
 git reset --hard <-commit hash->
+
 ```
 
 - Check commit history and find commit number
 
 ```
+
 git log
+
 ```
 
 ## 2. Fork (Rough Copy)
@@ -341,6 +376,7 @@ git log
 - inside mutiple folder we use only one specail folder than
 
 ```
+
 git clone --no-checkout <git link>
 cd <choose directory>
 
@@ -348,8 +384,23 @@ git sparse-checkout init --cone
 git sparse-checkout set "special folder"
 
 git checkout
+
+```
+
+## see where git init
+
+```
+
+git rev-parse --show-toplevel
+
 ```
 
 ```
+
 Bye Bye
+
+```
+
+```
+
 ```
